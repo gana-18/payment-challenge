@@ -1,0 +1,149 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+.box{
+    font-family: "Red Hat Display";
+    border-radius: 20px;
+    overflow: hidden;
+    margin:auto;
+    background-color:white;
+    text-align:center;
+    min-width:21.875rem;
+    width:450px;
+
+}
+.hero{
+    max-width:100%;
+    align-self: center;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+}
+.content{
+   padding:20px;
+}
+.box2{
+    display: flex;
+    margin: 20px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    font-weight: 900;
+}
+.box2-content{
+           display: flex;
+           flex-direction: column;
+           justify-content:center;
+           font-size: 15px;
+           margin-left:20px;
+}
+.margin{
+    margin:0px;
+}
+.self-center{
+    margin-left: 200px;
+    align-self: center;
+    font-size: 13px;
+}
+p{
+    color: #9398AE;
+}
+#text{
+    margin: auto;
+    width: 80%;
+}
+.box2 a{
+    font-size: 13px;
+    margin-left: 115px;
+
+    color: hsl(245, 75%, 52%);
+  }
+.box2 a:hover{
+    text-decoration: none;
+    color: #766CF1;
+  }
+#proceed{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #382AE1;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+    box-shadow: 0px 20px 20px #392ae136;
+
+    margin-top: 20px;
+    margin-right: 19px;
+    margin-left: 20px;
+  }
+  #proceed:hover{
+    background-color: #766CF1;
+  }
+  #cancel{
+    display: inline-block;
+    text-decoration:none;
+    color: #9398AE;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  #cancel:hover{
+    color: black;
+  }
+  .s900{
+    font-weight: 900;
+  }
+
+  .s700{
+    font-weight: 700;
+  }
+@media screen and (min-width: 1440px){
+    .box{
+      width: 450px;
+    }
+
+    .content{
+      padding: 20px 40px;
+    }
+
+    .box2{
+      padding: 25px;
+    }
+
+    .box2 a{
+      margin-left: 125px;
+    }
+  }
+  .s900{
+    font-weight: 900;
+  }
+
+  .s700{
+    font-weight: 700;
+  }
+
+  p{
+    color: #9398AE;
+  }
+
+  .margin{
+    margin: 0;
+  }
+
+  .self-center{
+    align-self: center;
+  }
